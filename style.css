@@ -1,28 +1,31 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-img {
-    width: auto;
-    height: 100px;
-}
-
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 25px;
     font-size: 14px;
 }
 
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+h1 {
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+p {
+    color: #E5E7EB;
 }
 
 .header,
@@ -64,20 +67,123 @@ a {
     flex: 1;
     display: flex;
     justify-content: center;
+    padding: 30px 100px;
 }
 
 .first {
     background-color: #1F2937;
 }
 
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    padding-right: 10px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 20px;
+}
+
+.first
+img {
+    width: auto;
+    height: 300px;
+    border-radius: 15px;
+}
+
 .second {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.fact {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.fact
+img {
+    width: auto;
+    height: 250px;
+    border-radius: 16px;
 }
 
 .third {
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.signature {
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: auto;
 }
 
 .forth {
     background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_signup {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    padding: 0px 50px;
+    border-radius: 10px;
+}
+
+.big_signup
+div {
+    width: 500px;
+    padding: 30px;
+}
+
+.big_signup
+h2 {
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+
+.big_signup
+.signup {
+    flex: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin: 50px;
 }
