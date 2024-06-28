@@ -101,7 +101,6 @@ img {
 
 .second {
     background-color: white;
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -131,7 +130,6 @@ img {
 
 .third {
     background-color: #E5E7EB;
-    justify-content: center;
     align-items: center;
 }
 
@@ -142,7 +140,7 @@ img {
 
 .text {
     color: #1F2937;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     font-size: 36px;
 }
@@ -155,7 +153,6 @@ img {
 
 .forth {
     background-color: white;
-    justify-content: center;
     align-items: center;
 }
 
